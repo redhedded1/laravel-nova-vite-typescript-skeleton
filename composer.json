@@ -1,0 +1,30 @@
+{
+  "name": "oneduo/tool-template",
+  "description": "A Laravel Nova tool.",
+  "keywords": [
+    "laravel",
+    "nova"
+  ],
+  "license": "MIT",
+  "require": {
+    "php": "^7.3|^8.0",
+    "innocenzi/laravel-vite": "^0.2.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Oneduo\\ToolTemplate\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Oneduo\\ToolTemplate\\ToolServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
